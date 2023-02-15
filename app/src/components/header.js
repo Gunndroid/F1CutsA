@@ -7,7 +7,7 @@ const Header = () => (
       <div className="">
         <img src={logo} alt="logo" className="ml-10 w-28" />
       </div>
-      <div className="grid grid-cols-4 mr-8">
+      {/* <div className="grid grid-cols-4 mr-8">
         <Link to="/about.js" className="basis-3/4 font-bold text-lg">
           Home
         </Link>
@@ -20,7 +20,7 @@ const Header = () => (
         <Link to="/another-component" className="basis-3/4 font-bold text-lg">
           Make a Cut
         </Link>
-      </div>
+      </div> */}
     </div>
   </header>
 );
