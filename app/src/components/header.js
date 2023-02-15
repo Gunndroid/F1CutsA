@@ -1,4 +1,5 @@
 import logo from "../img/f1cuts4.png";
+import About from "./about.js";
 
 const Header = () => (
   <header className="h-30 text-white">
@@ -6,10 +7,19 @@ const Header = () => (
       <div className="">
         <img src={logo} alt="logo" className="ml-10 w-28" />
       </div>
-      <div className="grid grid-cols-3">
-        <h1 className="basis-3/4 font-bold text-lg">Home</h1>
-        <h1 className="basis-3/4 font-bold text-lg">About</h1>
-        <h1 className="basis-3/4 font-bold text-lg">Make a Cut</h1>
+      <div className="grid grid-cols-4 mr-8">
+        <Link to="/about.js" className="basis-3/4 font-bold text-lg">
+          Home
+        </Link>
+        <Link to="/another-component" className="basis-3/4 font-bold text-lg">
+          About
+        </Link>
+        <Link to="/another-component" className="basis-3/4 font-bold text-lg">
+          Services
+        </Link>
+        <Link to="/another-component" className="basis-3/4 font-bold text-lg">
+          Make a Cut
+        </Link>
       </div>
     </div>
   </header>

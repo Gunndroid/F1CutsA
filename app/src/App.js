@@ -6,12 +6,12 @@ import Racecar from "./components/racecar.js";
 
 function App() {
   return (
-    <main className="grid grid-cols-1 grid-rows-2 relative">
-      <div className="row-start-1 mb-16">
+    <main className="grid grid-cols-1 grid-rows-3 relative">
+      <div className="row-start-1 mb-36">
         <Header />
         <Main />
       </div>
-      <div id="footer">
+      <div id="footer" className="">
         <Racecar />
         <Footer />
       </div>
